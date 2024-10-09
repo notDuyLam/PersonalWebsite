@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/assests/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main bg-[#343240] w-full h-[3000px] flex">
+        <!-- Profile -->
+        <div class="profile w-1/2">
+            <!-- profile pic -->
+            <div class="profile-pic relative mt-[60px] mx-[40px] h-[600px] bg-[url('./assests/img/placeholder.png')] bg-no-repeat flex flex-col shadow-[0_6px_12px_rgba(0,0,0,0.5)]">
+                <!-- decoration -->
+                <div class="w-full h-0 absolute border-b-[150px] border-b-transparent border-l-[40vw] border-l-[#14D56B] opacity-70"></div>
+                <div class="w-0 h-0 absolute border-l-[50px] border-l-transparent border-r-[30vw] border-r-transparent border-t-[175px] border-t-[#14D56B] opacity-70"></div>
+
+
+                <!-- Name -->
+                <div class="name text-[32px] font-bold p-[16px] pb-[8px] pl-[32px] z-10 text-white">
+                    Nguyen Duy Lam
+                </div>
+                <!-- Bio -->
+                <div class="bio font-[300] px-[32px] text-[16px] z-10 text-white">
+                    Fresher Software Engineer
+                </div>
+                <!-- Icon -->
+                <div class="icons mt-auto mb-[10px] pl-[8px] w-2/5 flex justify-start items-center">
+                    <a href="https://www.facebook.com/nguyen.duy.laam" class="fb">
+                        <i class="fab fa-facebook text-blue-500 text-[40px] px-[8px]"></i>
+                    </a>
+                    <a href="https://www.instagram.com/its.laam/" class="ins">
+                        <i class="fab fa-instagram text-[40px] px-[8px]"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/duylam778/" class="linkedin">
+                        <i class="fab fa-linkedin text-blue-700 text-[40px] px-[8px]"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- Skill -->
+            <div class="skill h-[300px] mx-[40px] bg-[#1F1D2A] shadow-[0_6px_12px_rgba(0,0,0,0.5)] flex flex-col justify-center">
+                <div class="frontend mx-[40px] py-[16px]">
+                    <div class="points-of-skill py-[8px] text-[#7636FA] font-bold text-[20px]">92. <span class="pl-[12px] text-gray-500 text-[16px]">Frontend Development</span></div>
+                    <div class="progress-bar h-[6px] ml-[46px] mr-[40px] bg-gray-600 rounded-full">
+                        <div class="rounded-full bg-gradient-to-r from-pink-500 to-yellow-400 w-[92%] h-full"></div>
+                    </div>
+                </div>
+
+                <div class="english mx-[40px] py-[16px]">
+                    <div class="points-of-skill py-[8px] text-[#7636FA] font-bold text-[20px]">96. <span class="pl-[12px] text-gray-500 text-[16px]">English</span></div>
+                    <div class="progress-bar h-[6px] ml-[46px] mr-[40px] rounded-full bg-gray-600">
+                        <div class="rounded-full bg-gradient-to-r from-purple-500 to-blue-400 w-[96%] h-full"></div>
+                    </div>
+                </div>
+                
+                <div class="english mx-[40px] py-[16px]">
+                    <div class="points-of-skill py-[8px] text-[#7636FA] font-bold text-[20px]">87. <span class="pl-[12px] text-gray-500 text-[16px]">Backend Development</span></div>
+                    <div class="progress-bar h-[6px] ml-[46px] mr-[40px] rounded-full bg-gray-600">
+                        <div class="rounded-full bg-gradient-to-r from-green-500 to-red-400 w-[87%] h-full"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Navigation -->
+        <div class="main-right w-1/2 flex flex-col mt-[60px] mr-[40px]">
+            <!-- Nav -->
+            <div class="nav bg-[#1F1D2A] flex justify-center items-center py-[16px] shadow-[0_6px_12px_rgba(0,0,0,0.5)]">
+                <!-- Home -->
+                <a href="#" class="home relative p-[16px] flex-1 text-center justify-center items-center flex">
+                    <i class="fas fa-home absolute opacity-50 text-[#7636FA] text-[40px]"></i>
+                    <div class="text-white font-[600] z-10 text-[12px]">Home</div>
+                </a>
+                <!-- Resume -->
+                <a href="#" class="resume relative p-[16px] flex-1 justify-center items-center flex">
+                    <i class="fas fa-file-alt absolute opacity-50 text-[#7636FA] text-[40px]"></i>
+                    <div class="text-white font-[600] z-10 text-[12px]">Resume</div>
+                </a>
+                <!-- Portfolio -->
+                <a href="#" class="portfolio relative p-[16px] flex-1 justify-center items-center flex">
+                    <i class="fas fa-briefcase absolute opacity-50 text-[#7636FA] text-[40px]"></i>
+                    <div class="text-white font-[600] z-10 text-[12px]">Portfolio</div>
+                </a>
+                <!-- Blog -->
+                <a href="#" class="blog relative p-[16px] flex-1 justify-center items-center flex">
+                    <i class="fas fa-blog absolute opacity-50 text-[#7636FA]  text-[40px]"></i>
+                    <div class="text-white font-[600] z-10 text-[12px]">Blog</div>
+                </a>
+                <!-- Contact -->
+                <a href="#" class="contact relative p-[16px] flex-1 justify-center items-center flex">
+                    <i class="fas fa-envelope absolute opacity-50 text-[#7636FA] text-[40px]"></i>
+                    <div class="text-white font-[600] z-10 text-[12px]">Contact</div>
+                </a>
+            </div>
+
+            <!-- info -->
+            <div class="info bg-[#1F1D2A] my-[32px] shadow-[0_6px_12px_rgba(0,0,0,0.5)]">
+                <div class="info-content p-[16px]">
+                    <div class="text-[#14D56B] font-bold text-[20px] py-[8px]">About Info</div>
+
+                    <!-- Detail -->
+                    <div class="detail flex">
+                        <div class="detail-left w-1/2 flex flex-col h-full">
+                            <div class="first py-[12px] h-1/3 flex">
+                                <div class="icon w-1/5 w-12 h-12 bg-[#7636FA] rounded-full flex justify-center items-center">
+                                    <i class="fas fa-user text-white"></i>
+                                </div>
+                                <div class="detail-info px-[16px] text-white flex flex-col w-4/5 justify-between h-full">
+                                    <div class="header h-1/2 font-bold">My name</div>
+                                    <div class="footer h-1/2 text-gray-400 text-[12px]">Nguyen Duy Lam</div>
+                                </div>
+                            </div>
+                            <div class="second py-[12px] h-1/3 flex">
+                                <div class="icon w-1/5 w-12 h-12 bg-[#7636FA] rounded-full flex justify-center items-center">
+                                    <i class="fas fa-envelope text-white"></i>
+                                </div>
+                                <div class="detail-info px-[16px] text-white flex flex-col w-4/5 justify-between h-full">
+                                    <div class="header h-1/2 font-bold">Email Address</div>
+                                    <div class="footer h-1/2 text-gray-400 text-[12px]">nguyenduylam778@gmail.com</div>
+                                </div>
+                            </div>
+                            <div class="third py-[12px] h-1/3 flex">
+                                <div class="icon w-1/5 w-12 h-12 bg-[#7636FA] rounded-full flex justify-center items-center">
+                                    <i class="fas fa-map-marker-alt text-white"></i>
+                                </div>
+                                <div class="detail-info px-[16px] text-white flex flex-col w-4/5 justify-between h-full">
+                                    <div class="header h-1/2 font-bold">Address</div>
+                                    <div class="footer h-1/2 text-gray-400 text-[12px]">You can ask and I will answer :D</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="detail-right">
+                            <div class="first py-[12px] h-1/3 flex">
+                                <div class="icon w-1/5 w-12 h-12 bg-[#7636FA] rounded-full flex justify-center items-center">
+                                    <i class="fas fa-calendar-alt text-white"></i>
+                                </div>
+                                <div class="detail-info px-[16px] text-white flex flex-col w-4/5 justify-between h-full">
+                                    <div class="header h-1/2 font-bold">My Age</div>
+                                    <div class="footer h-1/2 text-gray-400 text-[12px]">19 years 3xx days</div>
+                                </div>
+                            </div>
+                            <div class="second py-[12px] h-1/3 flex">
+                                <div class="icon w-1/5 w-12 h-12 bg-[#7636FA] rounded-full flex justify-center items-center">
+                                    <i class="fas fa-phone text-white"></i>
+                                </div>
+                                <div class="detail-info px-[16px] text-white flex flex-col w-4/5 justify-between h-full">
+                                    <div class="header h-1/2 font-bold">Phone number</div>
+                                    <div class="footer h-1/2 text-gray-400 text-[12px]">0912 7676 59</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- short bio -->
+                    <div class="short-bio">
+                        <div class="text-[#14D56B] font-bold text-[20px] py-[8px] mt-[32px]">Short Bio</div>
+                        <div class="text-[12px] text-gray-500 tracking-wide leading-[32px] columns-2 h-auto">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos voluptatum dolore atque repellat aliquam porro sed minima dignissimos libero suscipit sit modi eligendi ab quibusdam explicabo omnis, molestias nobis laudantium.
+                            <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi velit consequuntur nemo, in vel inventore culpa quos quasi ab earum assumenda qui numquam tempora <span class="text-[#7636FA] font-bold">don't read those, you won't understand 😎</span> pariatur eius magnam optio nihil  esse.
+                        </div>
+                    </div>
+
+                    <!-- Jobs -->
+                    <div class="job">
+                        <div class="text-[#14D56B] font-bold text-[20px] py-[8px] mt-[32px]">What I Do?</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
